@@ -155,6 +155,7 @@ while run: #Run the program
     # Ask the user if they would like to play the game again
     playAgain = input().lower()
     if playAgain == 'y' or playAgain == 'yes' or playAgain == 'yeah' or playAgain == 'yep' or playAgain == 'play again' or playAgain == 'i do':
+        soulelement = [] # Reset the variable
         run = True # Run program again
     else:
         run = False # End program
